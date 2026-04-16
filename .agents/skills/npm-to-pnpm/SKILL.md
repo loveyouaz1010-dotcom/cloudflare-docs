@@ -13,7 +13,9 @@ Run:
 pnpm -v
 ```
 
-If this succeeds, pnpm is already set up. Inform the user and stop — nothing else is needed.
+If this succeeds and the major version is **10 or above**, pnpm is already set up. Inform the user and stop — nothing else is needed.
+
+If pnpm is installed but the major version is **below 10**, tell the user their version is too old and continue to [Step 1](#step-1-check-node-version) to upgrade Node and reinstall pnpm via corepack.
 
 ## Step 1: Check Node version
 
